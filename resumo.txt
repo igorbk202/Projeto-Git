@@ -1,0 +1,12 @@
+…ou crie um novo repositório na linha de comando
+echo # Projeto-Git  README.md 
+git init 
+git add README.md 
+git commit -m primeiro commit 
+git branch -M main 
+git remote add origin httpsgithub.comigorbk202Projeto-Git. git
+ git push -u origin main
+…ou envie um repositório existente a partir da linha de comando
+git remote add origin httpsgithub.comigorbk202Projeto-Git.git
+ git branch -M main 
+git push -u origin main
