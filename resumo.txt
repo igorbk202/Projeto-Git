@@ -6,8 +6,22 @@ git commit -m primeiro commit
 git branch -M main 
 git remote add origin httpsgithub.comigorbk202Projeto-Git. git
  git push -u origin main
- ------------------
+
 …ou envie um repositório existente a partir da linha de comando
 git remote add origin httpsgithub.comigorbk202Projeto-Git.git
  git branch -M main 
 git push -u origin main
+
+***********************************
+ou
+***********************************
+
+Terminal:
+
+cd ------"local do arquivo que deseja enviar" 
+não pode ter arquivo git na pasta
+git init 
+git add .   -----"todos os arquivos da pasta"
+git commit -m "primeiro commit"
+git remote add origin https://github.com/igorbk202/Viagem.git ------"repositorio "
+git push -u origin master
